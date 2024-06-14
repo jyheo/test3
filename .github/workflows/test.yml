@@ -1,5 +1,5 @@
 name: Test workflow
-on: workflow_dispatch
+on: [workflow_dispatch, push, workflow_call]
 env:
   OUTPUT_FILE: output.log
   OUTPUT_NAME: output-log-file
