@@ -1,6 +1,6 @@
 name: Test workflow
 on:
-  pull_request:
+  workflow_dispatch
 env:
   OUTPUT_FILE: output.log
   OUTPUT_NAME: output-log-file
