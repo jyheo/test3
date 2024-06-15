@@ -1,6 +1,6 @@
 name: Call a reusable workflow and use its outputs
 on:
-  workflow_dispatch:
+  workflow_dispatch
 jobs:
   job1:
     uses: jyheo/test3/.github/workflows/resusable-workflow.yml@main
