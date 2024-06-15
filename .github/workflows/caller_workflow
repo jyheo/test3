@@ -3,7 +3,7 @@ on:
   workflow_dispatch
 jobs:
   job1:
-    uses: jyheo/test3/.github/workflows/resusable-workflow.yml@main
+    uses: jyheo/test3/.github/workflows/reusable-workflow.yml@main
     with:
       input1: 10
 
