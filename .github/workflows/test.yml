@@ -1,5 +1,12 @@
 name: Test workflow
-on: [workflow_dispatch, push, workflow_call]
+on: 
+  workflow_dispatch:
+    inputs:
+      input1:
+        required: true
+        type: string
+  push:
+  workflow_call:
 env:
   OUTPUT_FILE: output.log
   OUTPUT_NAME: output-log-file
